@@ -24,7 +24,7 @@ let introduction = 'My name is ' + fullName + ' and I think ' + luckyNumber + ' 
 console.log(introduction);
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
-let adventurous = Boolean (true);
+let adventurous = (true);
 
 console.log(adventurous);
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
@@ -47,7 +47,16 @@ let allowedPets = 4;
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
+let result = adventurous;
 
+if (adventurous = true) {
+  console.log ('Adventures are great!');
+}
+if (adventurous = false){
+  console.log ('How about we stay home?');
+}
+
+console.log (result);
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
 //      Create a compound conditional: 
 //      if luckyNumber is 2 and adventurous is true,
