@@ -1,8 +1,10 @@
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
-let firstName = 'Jesse ';
+let firstName = '';
+firstName = 'Jesse '
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
-let lastName = 'Swanson';
+let lastName = '';
+lastName = 'Swanson '
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 //     (remember, you already have variables for this, can you use those?)
 //     Console log the value of `fullName`
@@ -47,13 +49,13 @@ let allowedPets = 4;
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
-let result = adventurous;
+let result = '';
 
 if (adventurous == true) {
-  console.log ('Adventures are great!');
+  results = 'Adventures are great';
 }
 else {
-  console.log ('How about we stay home?');
+  results = 'How about we stay home?';
 }
 
 console.log (result);
@@ -64,7 +66,7 @@ console.log (result);
 //      Console log the value of `diceRoll`
 let diceRoll = 'Try again later.';
 
-if (luckyNumber == 2 && adventurous == true) {
+if (luckyNumber === 2 && adventurous === true) {
   diceRoll = 'Roll the dice!';
 }
 
